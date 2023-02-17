@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.link{
+    text-decoration: none;
+     color:none;
+}
+button[type="submit"] {
+  background-color:#d35324 ; /* Set background color */
+    border: none; /* Remove borders */
+    color: black; /* Set text color */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Change mouse cursor on hover */
+    transition: background-color 0.3s ease; 
+    font-weight: 400;/* Add transition effect */
+    font-family: 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+  }
+
+  button[type="submit"]:hover {
+    background-color:rgb(224, 150, 11); /* Change the background color on hover */
+  }

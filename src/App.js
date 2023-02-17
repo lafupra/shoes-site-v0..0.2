@@ -13,6 +13,7 @@ import Services from "./Pages/Services/Services"
 
 
 
+
 function App() {
 
 
@@ -21,28 +22,32 @@ function App() {
     <>
         
       <BrowserRouter  >
-   
-      <Navbar/>
-    
-      <Routes>
-    
+  
 
-        <Route path="/" element={<Shoes/>}/>
-        <Route path="/men" element={<Men/>}/>
-        <Route path="/singleproduct" element={<SingleProduct/>}/>
-        <Route path="/cart" element={<Cart/>}/>
-        <Route path="/checkout" element={<Checkout/>}/>
-        <Route path="/contactus" element={<ContactUs/>}/>
-        <Route path="/services" element={<Services/>}/>
-       
-       
-      
-     
-        
+   <Navbar/>
     
-      </Routes>
+    <Routes>
+  
+
+      <Route path="/" element={<Shoes/>}/>
+      <Route path="/men" element={<Men/>}/>
+      <Route path="/singleproduct" element={<SingleProduct/>}/>
+      <Route path="/cart" element={<Cart/>}/>
+      <Route path="/checkout" element={<Checkout/>}/>
+      <Route path="/contactus" element={<ContactUs/>}/>
+      <Route path="/services" element={<Services/>}/>
      
-      <Footer/>
+     
+    
+   
+      
+  
+    </Routes>
+   
+    <Footer/>
+
+  
+
 
      
       </BrowserRouter>

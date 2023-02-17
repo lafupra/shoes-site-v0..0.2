@@ -74,8 +74,8 @@ const Cart = () => {
     </tfoot>
   </table>
   <div className="cart-buttons">
-    <Link to={'/'} onClick={handleLinkClick}><button  className="cart-button">Continue Shopping</button></Link>
-    <Link to={'/checkout'} onClick={handleLinkClick}><button  className="cart-button">Checkout</button></Link>
+    <Link className="link" to={'/'} onClick={handleLinkClick}><button  className="cart-button">Continue Shopping</button></Link>
+    <Link className="link" to={'/checkout'} onClick={handleLinkClick}><button  className="cart-button">Checkout</button></Link>
   </div>
 </div>
     </>

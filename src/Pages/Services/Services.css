@@ -51,6 +51,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    border:none;
   }
   
   .service-button:hover {

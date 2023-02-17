@@ -20,7 +20,8 @@ const Footer = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div className="col-md-4">
-       <Link to={"/services"} onClick={handleLinkClick}> <h3>Services</h3>
+       <Link className="link" to={"/services"} onClick={handleLinkClick}> 
+       <h3 className='title'>Services</h3>
         <ul className="list-unstyled">
           <li>Shoe Repair</li>
           <li>Custom Shoes</li>
@@ -30,13 +31,14 @@ const Footer = () => {
         </Link>
       </div>
       <div className="col-md-4">
-      <Link to={"/contactus"} onClick={handleLinkClick}><h3>Contact Us</h3>
-        <ul className="list-unstyled contact-info">
-          <li><i className="fa fa-phone"></i> 1-800-123-4567</li>
-          <li><i className="fa fa-envelope"></i> support@shoes.com</li>
-          <li><i className="fa fa-map-marker"></i> 123 Main Street, Anytown USA 12345</li>
-        </ul>
-        </Link>
+      <Link className="link" to={"/contactus"} onClick={handleLinkClick}>
+        <h3 className='title'>Contact Us</h3> 
+        <ul>
+          <li> 1-800-123-4567</li>
+          <li> support@shoes.com</li>
+          <li>123 Main Street, Anytown USA 12345</li>
+        </ul></Link>
+       
       </div>
     </div>
     <hr/>

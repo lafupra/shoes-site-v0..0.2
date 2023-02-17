@@ -11,13 +11,13 @@ const MenCard = () => {
     <>
    <div className="product-list-card">
   <div className="product-list-card-image">
-  <Link to={'/singleproduct'} onClick={handleLinkClick}> <img src={menshoes1} alt="Professional Shoe"/></Link>
+  <Link className="link" to={'/singleproduct'} onClick={handleLinkClick}> <img src={menshoes1} alt="Professional Shoe"/></Link>
   </div>
   <div className="product-list-card-details">
     <h3 className="product-list-card-title">Professional Shoe</h3>
     <p className="product-list-card-price">$99.99</p>
     <p className="product-list-card-description"> they're both stylish and comfortable.</p>
-    <Link to={'/singleproduct'} onClick={handleLinkClick}> <button className="product-list-card-button">Add to Cart</button></Link>
+    <Link className="link" to={'/singleproduct'} onClick={handleLinkClick}> <button className="product-list-card-button">Add to Cart</button></Link>
   </div>
 </div>
     </>

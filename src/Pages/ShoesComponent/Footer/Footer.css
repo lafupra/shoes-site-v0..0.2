@@ -49,7 +49,7 @@
   }
   
   footer ul.contact-info {
-    list-style: none;
+   
     padding-left: 0;
   }
   .row{
@@ -63,7 +63,10 @@
     flex:8;
   }
   .col-md-4{
-    flex:2
+    flex:2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
   .rowc{
     display:flex;
@@ -71,6 +74,9 @@
     gap:1rem;
   }
   
+  .title{
+    color:white;
+  }
  /* mobile */
 
 @media screen and (max-width: 400px) {

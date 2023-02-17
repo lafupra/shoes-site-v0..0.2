@@ -62,21 +62,21 @@ const Shoes = () => {
   <div className="category-container">
     <div className="category">
      <Link className="link"  to={"/men"} onClick={handleLinkClick}>
-     <img src={categoryimg1} alt="Men's Shoes"/>
+     <img src={categoryimg1} alt="Men's Shoes"/></Link> 
       <h3>Men's Shoes</h3>
-      <button className="btn">Shop Now</button></Link> 
+      <Link className="link"  to={"/men"} onClick={handleLinkClick}><button className="btn">Shop Now</button></Link>
     </div>
     <div className="category">
     <Link className="link"  to={"/men"} onClick={handleLinkClick}>
-      <img src={categoryimg2} alt="Women's Shoes"/>
+      <img src={categoryimg2} alt="Women's Shoes"/></Link>
       <h3>Women's Shoes</h3>
-      <button className="btn">Shop Now</button></Link>
+      <Link className="link"  to={"/men"} onClick={handleLinkClick}> <button className="btn">Shop Now</button></Link>
     </div>
     <div className="category">
     <Link className="link"  to={"/men"} onClick={handleLinkClick}>
-      <img src={categoryimg3} alt="Kids' Shoes"/>
+      <img src={categoryimg3} alt="Kids' Shoes"/></Link>
       <h3>Kids' Shoes</h3>
-      <button className="btn">Shop Now</button></Link>
+      <Link className="link"  to={"/men"} onClick={handleLinkClick}> <button className="btn">Shop Now</button></Link>
     </div>
   </div>
 </section>
