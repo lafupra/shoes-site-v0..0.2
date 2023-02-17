@@ -33,22 +33,22 @@ const Shoes = () => {
 			<h2>New Arrivals</h2>
 			<div className="product-items">
 				<div className="product-item">
-        <Link to={"/men"} onClick={handleLinkClick}><img className="productImage" src={product1} alt="Shoe 1"/></Link>
+        <Link className="link"  to={"/men"} onClick={handleLinkClick}><img className="productImage" src={product1} alt="Shoe 1"/></Link>
 					<h4>Adidas Originals</h4>
 					<p>$99.99</p>
-					<Link to={"/men"} onClick={handleLinkClick}><button className="productbtn">Add to Cart</button></Link>
+					<Link className="link"  to={"/men"} onClick={handleLinkClick}><button className="productbtn">Add to Cart</button></Link>
 				</div>
 				<div className="product-item">
-        <Link to={"/men"} onClick={handleLinkClick}><img className="productImage" src={product2} alt="Shoe 2"/></Link>
+        <Link className="link"  to={"/men"} onClick={handleLinkClick}><img className="productImage" src={product2} alt="Shoe 2"/></Link>
        <h4>Nike Air Force 1</h4>
 					<p>$119.99</p>
-          <Link to={"/men"} onClick={handleLinkClick}><button className="productbtn">Add to Cart</button></Link>
+          <Link className="link"  to={"/men"} onClick={handleLinkClick}><button className="productbtn">Add to Cart</button></Link>
 				</div>
 				<div className="product-item">
-        <Link to={"/men"} onClick={handleLinkClick}><img className="productImage" src={product3} alt="Shoe 3"/></Link>
+        <Link className="link"  to={"/men"} onClick={handleLinkClick}><img className="productImage" src={product3} alt="Shoe 3"/></Link>
 					<h4>Puma RS-X</h4>
 					<p>$89.99</p>
-          <Link to={"/men"} onClick={handleLinkClick}><button className="productbtn">Add to Cart</button></Link>
+          <Link className="link"  to={"/men"} onClick={handleLinkClick}><button className="productbtn">Add to Cart</button></Link>
 				</div>
 			</div>
 		</div>
@@ -61,19 +61,19 @@ const Shoes = () => {
   <h2>Shop by Category</h2>
   <div className="category-container">
     <div className="category">
-     <Link to={"/men"} onClick={handleLinkClick}>
+     <Link className="link"  to={"/men"} onClick={handleLinkClick}>
      <img src={categoryimg1} alt="Men's Shoes"/>
       <h3>Men's Shoes</h3>
       <button className="btn">Shop Now</button></Link> 
     </div>
     <div className="category">
-    <Link to={"/men"} onClick={handleLinkClick}>
+    <Link className="link"  to={"/men"} onClick={handleLinkClick}>
       <img src={categoryimg2} alt="Women's Shoes"/>
       <h3>Women's Shoes</h3>
       <button className="btn">Shop Now</button></Link>
     </div>
     <div className="category">
-    <Link to={"/men"} onClick={handleLinkClick}>
+    <Link className="link"  to={"/men"} onClick={handleLinkClick}>
       <img src={categoryimg3} alt="Kids' Shoes"/>
       <h3>Kids' Shoes</h3>
       <button className="btn">Shop Now</button></Link>

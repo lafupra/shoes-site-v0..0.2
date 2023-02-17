@@ -22,7 +22,7 @@ const SingleProduct = () => {
 					<option value="9">9</option>
 					<option value="10">10</option>
 				</select>
-				<Link to={"/cart"}><button type="submit">Add to Cart</button></Link>
+				<Link className="link"  to={"/cart"}><button type="submit">Add to Cart</button></Link>
 			</form>
 		</div>
 	</div>
