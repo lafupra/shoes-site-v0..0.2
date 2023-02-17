@@ -34,9 +34,10 @@ const Footer = () => {
       <Link className="link" to={"/contactus"} onClick={handleLinkClick}>
         <h3 className='title'>Contact Us</h3> 
         <ul>
-          <li> 1-800-123-4567</li>
-          <li> support@shoes.com</li>
-          <li>123 Main Street, Anytown USA 12345</li>
+          <li> 9328154895</li>                                       
+
+          <li>  cpraful968@gmail.com</li>
+          <li>Ambedkar-Nagar St NO.14 Aji Gidc , 80 Feet Road,Rajkot</li>
         </ul></Link>
        
       </div>

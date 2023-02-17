@@ -15,7 +15,7 @@ const Cart = () => {
   <h2>Shopping Cart</h2>
   <table className="cart-table">
     <thead>
-      <tr>
+      <tr className="cart-tr">
         <th>Product</th>
         <th>Price</th>
         <th>Quantity</th>

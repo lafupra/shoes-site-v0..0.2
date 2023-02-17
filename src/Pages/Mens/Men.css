@@ -12,9 +12,8 @@
 /* filter sidebar */
 
 .filter-menu {
-  flex:2;
-    width: 300px;
-    height:450px;
+  flex:1;
+    height:fit-content;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -73,6 +72,8 @@
 .men-products{
   flex:8;
     display:flex;
+    align-items: center;
+    justify-content: center;
     gap:1rem;
    flex-wrap:wrap;
 }
@@ -87,6 +88,15 @@
 
       
      }
+
+     
+.men-products{
+  flex-basis:100%;
+    display:flex;
+    gap:1rem;
+    margin:0 5%;
+   flex-wrap:wrap;
+}
 
    
 
